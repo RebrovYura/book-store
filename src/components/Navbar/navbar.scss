@@ -1,7 +1,7 @@
 @import "../../styles/variables.scss";
 
 .header {
-    margin: 32px 0;
+    margin: 32px 0 62px;
     &__inner {
         display: flex;
         justify-content: space-between;
@@ -46,16 +46,23 @@
 
 @media (min-width: $md) {
     .header {
-        &__inner-left {
-            gap: 120px;
+        
+
+        &__inner-name {
+            font-size: 32px;
         }
     }
 }
 
 @media (min-width: $lg) {
     .header {
+        &__inner-left {
+            gap: 120px;
+        }
+
         &__inner-logo {
-            display: block;
+            display: flex;
+            align-items: center;
         }
     }
 
