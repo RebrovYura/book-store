@@ -3,7 +3,13 @@ import BookCard from '../components/BookCard'
 
 const Home = () => {
   return (
-    <div>
+    <div className='flex flex-wrap gap-[13px] justify-center sm:justify-normal'>
+      <BookCard/>
+      <BookCard/>
+      <BookCard/>
+      <BookCard/>
+      <BookCard/>
+      <BookCard/>
       <BookCard/>
     </div>
   )

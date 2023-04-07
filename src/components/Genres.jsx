@@ -12,7 +12,7 @@ const Genres = () => {
   }
 
   return (
-    <div className='font-bold text-[18px] max-w-[255px]'>
+    <div className='font-bold text-[18px] w-[280px]'>
       <div className='flex justify-between items-center mr-[16px] mb-[42px]' onClick={handleClick}>
         <p className={`${show ? 'text-accent transition-all' : 'text-text transition-all'}`}>Витрина книг</p>
         <img src={Arrow} alt='arrow' className={`${show ? 'rotate-180 transition-all' : 'rotate-0 transition-all'}`} />
