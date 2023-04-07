@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import Arrow from '../assets/icons/Arrow.svg'
 import { genresList } from '../constants/constants'
+import { Link } from 'react-router-dom'
+
 
 const Genres = () => {
   const [show, setShow] = useState(false)
@@ -23,9 +25,12 @@ const Genres = () => {
             ))
           }
         </ul>}
-      <div className='mb-[42px]'>Правила пользования</div>
-      <div className='genres__inner-contract'>Договор оферты</div>
-
+      <div className='mb-[42px]'>
+        <a href="/rules">Правила пользования</a>
+      </div>
+      <div className='genres__inner-contract'>
+        <a href="/contract">Договор оферты</a>
+      </div>
     </div>
   )
 }

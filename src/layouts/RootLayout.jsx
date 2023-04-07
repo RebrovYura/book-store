@@ -7,7 +7,10 @@ const RootLayout = ({children}) => {
     <div className='mt-[32px] mx-[16px] md:mx-[60px] xl:mx-auto max-w-[1110px] font-montserrat'>
         <Navbar/>
         <div className='hidden lg:block'>
-            <Genres className=''/>
+            <Genres />
+        </div>
+        <div>
+          {children}
         </div>
     </div>
   )
