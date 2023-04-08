@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import Genres from '../components/Genres'
+import Footer from '../components/Footer'
 
 const RootLayout = ({ children }) => {
   return (
@@ -14,6 +15,7 @@ const RootLayout = ({ children }) => {
           {children}
         </div>
       </div>
+      <Footer/>
     </div>
   )
 }
