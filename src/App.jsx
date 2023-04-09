@@ -9,7 +9,7 @@ import Contract from './pages/Contract'
 
 const App = () => {
   return (
-    <div className='mx-auto'>
+    <div className='mx-auto h-[100vh]'>
       <RootLayout>
         <Router>
           <Routes>

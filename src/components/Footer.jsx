@@ -7,7 +7,7 @@ import linkedin from '../assets/icons/linkedin.svg'
 const Footer = () => {
     return (
         <div className='mt-[62px] py-[16px] border-t border-label'>
-            <div className='flex justify-between items-center'>
+            <div className='flex flex-col lg:flex-row justify-between items-center'>
                 <p>
                     Book store | Yuri Rebrov
                 </p>
