@@ -25,7 +25,7 @@ const Navbar = () => {
             <a href="/" className='text-[18px] font-bold md:text-[32px]'>Библиотека</a>
           </div>
           <div className="header__inner-right max-w-[24px] md:max-w-[32px]">
-            <img src={ShoppingCart} alt="cart" />
+            <a href="/basket"><img src={ShoppingCart} alt="cart" /></a>
           </div>
         </div>
         {open && <MobileMenu />}

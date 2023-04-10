@@ -2,8 +2,8 @@ import { useState } from 'react'
 import EmptyStar from '../assets/icons/EmptyStar.svg'
 import FullStar from '../assets/icons/FullStar.svg'
 
-const StarRating = () => {
-  const [rating, setRating] = useState(1)
+const StarRating = ({ stars }) => {
+  const [rating, setRating] = useState(stars)
   return (
     <div className='flex gap-x-[8px]'>
       {rating === 0

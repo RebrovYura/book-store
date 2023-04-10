@@ -14,3 +14,16 @@ export const genresList = [
     {genre: 'Фантастика', amount: 10 },
     {genre: 'Юмористическая литература', amount: 6 },
 ]
+
+// ,
+//   "foreignLiterature": [],
+//   "historyLiterature": [],
+//   "classicLiterature": [],
+//   "psychologyLiterature": [],
+//   "computerLiterature": [],
+//   "cultureLiterature": [],
+//   "scienceLiterature": [],
+//   "journalisticLiterature": [],
+//   "directoryLiterature": [],
+//   "fantasticLiterature": [],
+//   "humorousLiterature": []

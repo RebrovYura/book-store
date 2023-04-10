@@ -6,6 +6,7 @@ import './index.css'
 import Rules from './pages/Rules'
 import Home from './pages/Home'
 import Contract from './pages/Contract'
+import Basket from './pages/Basket'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
               <Route index element={<Home/>}/>
               <Route path='rules' element={<Rules/>}/>
               <Route path='contract' element={<Contract/>}/>
+              <Route path='basket' element={<Basket/>}/>
             </Route>
           </Routes>
         </Router>

@@ -11,7 +11,7 @@ const RootLayout = ({ children }) => {
         <div className='hidden lg:block'>
           <Genres />
         </div>
-        <div>
+        <div className='flex'>
           {children}
         </div>
       </div>
