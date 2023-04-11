@@ -1,33 +1,19 @@
 import { useEffect } from 'react'
 import BookCard from '../components/BookCard'
 import books from '../constants/books.json'
+import service from '../services/service'
 
 const Home = () => {
 
-  const res = []
-  const test = Object.keys(books).map(item => books[item])
-  for (let i = 0; i < test.length; i++) {
-    for (let j = 0; j < test[i].length; j++) {
-      res.push(test[i][j])
-    }
-  }
+  const jsonService = new service()
 
   return (
     <div className='flex flex-wrap sm:justify-normal gap-x-[20px] gap-y-[10px] sm:justify-normal justify-center'>
       {
-        res.map(item => (
-          // console.log(item.image)
-          <BookCard key={item.id} image={item.image} author={item.author} title={item.title} rating={item.rating} year={item.year} price='25 '/>
+        jsonService.getAllBooks().map(item => (
+          <BookCard key={item.id} image={item.image} author={item.author} title={item.title} rating={item.rating} year={item.year} price='25 ' />
         ))
-        
       }
-      {/* <BookCard />
-      <BookCard />
-      <BookCard />
-      <BookCard />
-      <BookCard />
-      <BookCard />
-      <BookCard /> */}
     </div>
   )
 }
