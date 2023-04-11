@@ -2,7 +2,7 @@
   "businessLiterature": [
     {
       "id": "f5d5e202ca644aabb798522f6b527ba9",
-      "image": "../assets/images/books/business/bus1.jpg",
+      "image": "/src/assets/images/books/business/bus1.jpg",
       "category": "businessLiterature",
       "author": "Джордан Питерсон",
       "title": "12 правил жизни. Противоядие от хаоса",
@@ -12,7 +12,7 @@
     },
     {
       "id": "254b0293715749e983938d47228cb9df",
-      "image": "../assets/images/books/business/bus2.jpg",
+      "image": "/src/assets/images/books/business/bus2.jpg",
       "category": "businessLiterature",
       "author": "Джордж Клейсон",
       "title": "Самый богатый человек в Вавилоне",
@@ -22,7 +22,7 @@
     },
     {
       "id": "5968496625614327b85c519d80ed0e2f",
-      "image": "../assets/images/books/business/bus3.jpg",
+      "image": "/src/assets/images/books/business/bus3.jpg",
       "category": "businessLiterature",
       "author": "Китами Масао",
       "title": "Самурай без меча",
@@ -34,7 +34,7 @@
   "detectiveLiterature": [
     {
       "id": "c2f172f7df4c49f2b821ef3617b847f3",
-      "image": "../assets/images/books/detective/det1.jpg",
+      "image": "/src/assets/images/books/detective/det1.jpg",
       "category": "detectiveLiterature",
       "author": "Содзи Симада",
       "title": "Токийский Зодиак",
@@ -44,7 +44,7 @@
     },
     {
       "id": "2ee964daded7427d9b5f7856f256d7ac",
-      "image": "../assets/images/books/detective/det2.jpg",
+      "image": "/src/assets/images/books/detective/det2.jpg",
       "category": "detectiveLiterature",
       "author": "Агата Кристи",
       "title": "Убийство Роджера Экройда",
@@ -54,7 +54,7 @@
     },
     {
       "id": "37ec0cd29034438c8bf616db29b3ee93",
-      "image": "../assets/images/books/detective/det3.jpg",
+      "image": "/src/assets/images/books/detective/det3.jpg",
       "category": "detectiveLiterature",
       "author": "Джон Маррс",
       "title": "The One. Единственный",
@@ -64,7 +64,7 @@
     },
     {
       "id": "6f069818adfd492c9799dbd52ffca916",
-      "image": "../assets/images/books/detective/det4.jpg",
+      "image": "/src/assets/images/books/detective/det4.jpg",
       "category": "detectiveLiterature",
       "author": "Донато Карризи",
       "title": "Потерянные девушки Рима",
@@ -76,7 +76,7 @@
   "childrenLiterature": [
     {
       "id": "e9675daf010a410b9774bb55730d7a6d",
-      "image": "../assets/images/books/children/chi1.jpg",
+      "image": "/src/assets/images/books/children/chi1.jpg",
       "category": "detectiveLiterature",
       "author": "Антуан де Сент-Экзюпери",
       "title": "Маленький принц",
@@ -86,7 +86,7 @@
     },
     {
       "id": "8f5c8e3534dd47dfbb14bdda5e156df3",
-      "image": "../assets/images/books/children/chi1.jpg",
+      "image": "/src/assets/images/books/children/chi2.jpg",
       "category": "detectiveLiterature",
       "author": "Джоан Роулинг",
       "title": "Гарри Поттер и философский камень",

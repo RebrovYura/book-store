@@ -1,15 +1,12 @@
 import React from 'react'
 import StarRating from './StarRating'
-import books from '../constants/books.json'
-import book from '../assets/images/books/computer/comp1.png'
-// import book from '../assets/images/books/computer/comp1.png'
 
 const BookCard = ({ image, author, title, rating, year, price }) => {
     return (
         <div className='flex flex-col w-[280px] md:w-[190px] shadow-blockShadow p-[16px] rounded-[10px] cursor-pointer'>
             <div className='flex flex-col h-full'>
                 <div className='max-h-[240px] w-full flex justify-center'>
-                    <img src={book} alt="book" />
+                    <img src={image} alt="book" className='h-[242px]'/>
                 </div>
                 <div className='my-[16px]'>
                     <StarRating stars={rating} />

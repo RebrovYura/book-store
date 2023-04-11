@@ -16,7 +16,7 @@ const Home = () => {
     <div className='flex flex-wrap sm:justify-normal gap-x-[20px] gap-y-[10px] sm:justify-normal justify-center'>
       {
         res.map(item => (
-          // console.log(typeof(item.image))
+          // console.log(item.image)
           <BookCard key={item.id} image={item.image} author={item.author} title={item.title} rating={item.rating} year={item.year} price='25 '/>
         ))
         
