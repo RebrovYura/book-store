@@ -1,6 +1,5 @@
 import { useEffect } from 'react'
 import BookCard from '../components/BookCard'
-import books from '../constants/books.json'
 import service from '../services/service'
 
 const Home = () => {

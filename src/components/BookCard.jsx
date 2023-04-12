@@ -1,5 +1,6 @@
 import React from 'react'
 import StarRating from './StarRating'
+import book from '../assets/images/books/computer/comp1.png'
 
 const BookCard = ({ image, author, title, rating, year, price }) => {
     return (

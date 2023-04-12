@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { genresList } from '../constants/constants'
 import Arrow from '../assets/icons/Arrow.svg'
+import books from '../constants/books.json'
 
 
 const Genres = () => {
@@ -8,6 +9,10 @@ const Genres = () => {
 
   const handleClick = () => {
     setShow(!show)
+  }
+
+  const onCategoryClick = (e) => {
+    console.log(e.target.getAttribute('data-category'))
   }
 
   return (
@@ -24,7 +29,10 @@ const Genres = () => {
           <li className='mb-[16px] text-[16px] cursor-pointer'>Все книги</li>
           {
             genresList.map(item => (
-              <li key={item.genre} className='mb-[16px] text-[16px] cursor-pointer realtive'>{item.genre} <span key={item.genre} className='text-label text-[14px] absolute ml-[5px]'>{item.amount}</span></li>
+              <li key={item.name} className='mb-[16px] text-[16px] cursor-pointer realtive'>
+                {item.name}
+                <span key={item.name} className='text-label text-[14px] absolute ml-[5px]'>{item.amount}</span>
+              </li>
             ))
           }
         </ul>}

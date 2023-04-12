@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Genres from '../components/Genres'
 import Footer from '../components/Footer'
+import SearchBar from '../components/SearchBar'
 
 const RootLayout = ({ children }) => {
   return (
@@ -11,7 +12,8 @@ const RootLayout = ({ children }) => {
         <div className='hidden lg:block'>
           <Genres />
         </div>
-        <div className='flex'>
+        <div className='flex flex-col'>
+          <SearchBar/>
           {children}
         </div>
       </div>

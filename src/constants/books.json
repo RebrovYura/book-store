@@ -77,7 +77,7 @@
     {
       "id": "e9675daf010a410b9774bb55730d7a6d",
       "image": "/src/assets/images/books/children/chi1.jpg",
-      "category": "detectiveLiterature",
+      "category": "childrenLiterature",
       "author": "Антуан де Сент-Экзюпери",
       "title": "Маленький принц",
       "rating": 5,
@@ -87,7 +87,7 @@
     {
       "id": "8f5c8e3534dd47dfbb14bdda5e156df3",
       "image": "/src/assets/images/books/children/chi2.jpg",
-      "category": "detectiveLiterature",
+      "category": "childrenLiterature",
       "author": "Джоан Роулинг",
       "title": "Гарри Поттер и философский камень",
       "rating": 2,
